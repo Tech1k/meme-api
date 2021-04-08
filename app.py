@@ -1,12 +1,12 @@
 from flask import Flask, jsonify
-from api import ScrapMemes
+from api import MemeAPI
 
 app = Flask(__name__)
 app.config['JSON_SORT_KEYS'] = False
 
-@app.route('/')
+@app.route('/', methods = ['GET'])
 def meme_api():
-    result = ScrapMemes()
+    result = MemeAPI()
     return jsonify(result)
 
 if __name__ == "__main__":

@@ -11,7 +11,7 @@ TOPICS = [
     "dankmemes"
 ]
 
-def ScrapMemes(topic=0, num=1):
+def MemeAPI(topic=0, num=1):
     try:
         if num <= 0:
             return {
