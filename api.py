@@ -3,7 +3,7 @@ from random import choice
 
 CLIENT_ID = "CLIENT_ID_HERE"
 CLIENT_SECRET = "CLIENT_SECRET_HERE"
-USER_AGENT = "Catbot 1.2.5 by /u/Tech1k catbot.dev"
+USER_AGENT = "Catbot 1.2.7 by /u/Tech1k catbot.dev"
 
 reddit = praw.Reddit(client_id=CLIENT_ID, client_secret=CLIENT_SECRET, user_agent=USER_AGENT)
 
